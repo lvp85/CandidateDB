@@ -13,6 +13,8 @@
 		A6327C00274A22CD000CF68E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6327BFE274A22CD000CF68E /* Main.storyboard */; };
 		A6327C02274A22CF000CF68E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6327C01274A22CF000CF68E /* Assets.xcassets */; };
 		A6327C05274A22CF000CF68E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6327C03274A22CF000CF68E /* LaunchScreen.storyboard */; };
+		A6327C0E274A2A7A000CF68E /* CandidateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6327C0C274A2A7A000CF68E /* CandidateTableViewCell.swift */; };
+		A6327C0F274A2A7A000CF68E /* CandidateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6327C0D274A2A7A000CF68E /* CandidateTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A6327C01274A22CF000CF68E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6327C04274A22CF000CF68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6327C06274A22CF000CF68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6327C0C274A2A7A000CF68E /* CandidateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateTableViewCell.swift; sourceTree = "<group>"; };
+		A6327C0D274A2A7A000CF68E /* CandidateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CandidateTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A6327C01274A22CF000CF68E /* Assets.xcassets */,
 				A6327C03274A22CF000CF68E /* LaunchScreen.storyboard */,
 				A6327C06274A22CF000CF68E /* Info.plist */,
+				A6327C0C274A2A7A000CF68E /* CandidateTableViewCell.swift */,
+				A6327C0D274A2A7A000CF68E /* CandidateTableViewCell.xib */,
 			);
 			path = CandidateDB;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				A6327C05274A22CF000CF68E /* LaunchScreen.storyboard in Resources */,
 				A6327C02274A22CF000CF68E /* Assets.xcassets in Resources */,
 				A6327C00274A22CD000CF68E /* Main.storyboard in Resources */,
+				A6327C0F274A2A7A000CF68E /* CandidateTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				A6327BFD274A22CD000CF68E /* ViewController.swift in Sources */,
 				A6327BF9274A22CD000CF68E /* AppDelegate.swift in Sources */,
 				A6327BFB274A22CD000CF68E /* SceneDelegate.swift in Sources */,
+				A6327C0E274A2A7A000CF68E /* CandidateTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
