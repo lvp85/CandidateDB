@@ -39,6 +39,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         loadCandidate()
          return true
     }
+    
+    // search part
     func loadCandidate(){
         field.resignFirstResponder()
         guard let text = field.text,!text.isEmpty else{
@@ -75,6 +77,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         }.resume()
     }
 }
+
+// codeble class
 struct CandidateResult : Codable{
   
     let results:[Results]
